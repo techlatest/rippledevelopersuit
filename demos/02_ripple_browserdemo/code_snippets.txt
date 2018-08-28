@@ -1,0 +1,7 @@
+var api = new ripple.RippleAPI({server:'wss://s1.ripple.com/'});  //connects to ripple server
+console.log(api) //print details about api
+api.isConnected();
+api.connect();
+api.isConnected();
+var server_info=api.getServerInfo();  //returns serverinfo object
+server_info //explore serverinfo object

@@ -1,0 +1,53 @@
+Addresses for payment_multisign_demo.js
+sender
+r4Be8or2UwHk7rR7UtXTSN33vAgUQkwyrG
+Secret
+sn7q8jTvqBbD5h5LgKvQRM2DY9pVx
+
+signer 1
+rEyWnugwXCLuBda8hsR8GjWbyCACT7kaB7
+Secret
+sskYezHev6BRQDapkMY1xVit4NVcE
+
+signer 2
+rLjU8YFhxgyrFrw9iUVzfDxBqQ6CpspFoy
+Secret
+sh6rgpp9BUjGDdPkPaPWwhARBhKQa
+
+signer 3
+r4gWgUjX57qKBSHCvTNSaXRL4VAWoG5DFi
+Secret
+ssez8wBYDac3FjGUJFSw9xUBbGkg2
+
+receiver
+ryrwZttansnmUiQYPHFFiZ9JjPm2aA5m2
+Secret
+spijrL8Sne5XVU9jvSNeLPsgWb2n5
+
+####################################################
+
+Addresses for trustline_multisign_demo.js
+sender
+rPQyy4ANGomHRc85KtkcoHeA4kBTpFPP4t
+Secret
+shx2YEap3nq4CwWzMJB64L83WHoRE
+
+signer 1
+rByr6P6LuQL9vvDBxXUmbeS33aHVvR5w62
+Secret
+sn3k5Gsbf2m9hMCYA52ucxXWyhdoY
+
+signer 2
+rQrBB24u89fy4MHet4P6xBkBqxoZLZ2Rdn
+Secret
+spvapSmNLxoBosGdLcAjbbKAwQGtL
+
+signer 3
+rBQ8Ph1SfPtL9zxADTMC5yhphz8nr3XgtS
+Secret
+ssWkF7j2Jqd9V3gCVkLMsb57mpmXj
+
+receiver
+rGznxdNXBcLc1Z1EWaQaodKP2YgEdfwufD
+Secret
+ssZcG1KEYBMhxXANU84QjH2JSgtnD

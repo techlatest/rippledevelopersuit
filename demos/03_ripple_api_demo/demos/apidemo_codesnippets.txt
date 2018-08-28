@@ -1,0 +1,37 @@
+
+//test account address
+account1 rPQreTusqT7Ra8MuDRtCWysifsZP8oukwG
+account2 rUD37awAtUfoqWkBU8eLGgSRbSMfhJadyD
+
+//test account secret
+secret1 spo1gPjaYuykcgAZfCjpAxfyCVE9f
+secret2 shgY6YgyZoL5PupieoKxQZesnJdHZ
+
+//connecting to testnet
+const {RippleAPI} = require('ripple-lib');
+const api = new RippleAPI({
+  server: 'wss://s.altnet.rippletest.net:51233'
+});
+api.connect().then(() => {
+  console.log("connected to testnet");
+}).then(() => {
+  return api.disconnect();
+}).catch(console.error);
+
+
+//get server info
+api.connect().then(() => {
+  // Request server_info, log response...
+  api.getServerInfo().then(info => {
+    console.log(info);
+  });
+});
+
+
+//get account info
+api.connect().then(() => {
+  // Request account_info, log response...
+  api.getAccountInfo("rsmF9oZ72xrT2SyMitdJXr9HKR8on2P8Gy").then(info => {
+    console.log(info);
+  });
+});
